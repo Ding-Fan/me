@@ -1,0 +1,23 @@
+.experience {
+  .position {
+    .title {
+      display: flex;
+      align-items: center;
+    }
+    .company-name {
+      display: flex;
+      align-items: center;
+    }
+    .during {
+      font-size: 0.35cm;
+    }
+    .duty {
+      border-top: 1px solid #ccc;
+      margin-top: 0.2cm;
+      padding-top: 0.2cm;
+      li {
+        margin-left: 0.6cm;
+      }
+    }
+  }
+}

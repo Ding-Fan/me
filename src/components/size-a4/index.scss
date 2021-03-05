@@ -1,0 +1,26 @@
+// https://stackoverflow.com/questions/3341485/how-to-make-a-html-page-in-a4-paper-size-pages
+
+.page {
+  width: 21cm;
+  height: 29.7cm;
+  padding: 1.7cm 1.5cm;
+  border: 1px solid #f0f0f0;
+  background-color: #fcfaf2;
+  transition: all cubic-bezier(0.02, 1.01, 0.94, 0.98) 0.2s;
+  font-size: 0.4cm;
+  &:hover {
+    box-shadow: 0px 0px 20px 4px #ccc;
+  }
+
+  .pl1 {
+    padding-left: 0.5cm;
+  }
+
+  .pl3 {
+    padding-left: 1.5cm;
+  }
+
+  .pl5 {
+    padding-left: 2.5cm;
+  }
+}

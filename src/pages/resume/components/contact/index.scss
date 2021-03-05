@@ -1,0 +1,19 @@
+.contact {
+  margin-bottom: 1rem;
+  .item {
+    display: flex;
+    align-items: center;
+    .icon {
+      width: 2rem;
+      text-align: center;
+    }
+    .content {
+      transition: all cubic-bezier(0.02, 1.01, 0.94, 0.98) 0.2s;
+    }
+
+    &.github:hover {
+      color: #7db9de;
+      cursor: pointer;
+    }
+  }
+}
