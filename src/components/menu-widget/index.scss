@@ -33,6 +33,10 @@
       opacity: 0;
       display: none;
     }
+    .language {
+      opacity: 0;
+      display: none;
+    }
   }
 
   &.active {
@@ -50,6 +54,13 @@
         display: block;
       }
       .print {
+        animation-duration: 0.8s;
+        // animation-delay: 0.2s;
+        animation-timing-function: cubic-bezier(0.02, 1.01, 0.94, 0.98);
+        animation-name: fade-in;
+        display: block;
+      }
+      .language {
         animation-duration: 0.8s;
         // animation-delay: 0.2s;
         animation-timing-function: cubic-bezier(0.02, 1.01, 0.94, 0.98);

@@ -19,6 +19,7 @@ import {
   faBars,
   faHome,
   faPrint,
+  faLanguage
 } from '@fortawesome/free-solid-svg-icons'
 import { faEnvelope } from '@fortawesome/free-regular-svg-icons'
 
@@ -28,6 +29,7 @@ library.add(
   faMapMarkerAlt,
   faBars,
   faPrint,
+  faLanguage,
   faHome,
   faEnvelope
 )
