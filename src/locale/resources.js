@@ -23,7 +23,7 @@ const resources = {
           address: 'China, Hubei Province, Wuhan City',
           summary: 'Solve problems. Great at team working. Fast learner.',
           skills: [
-            'have experience about JavaScript, CSS3, HTML5',
+            'have experience about JavaScript, TypeScript, CSS3, HTML5',
             'have experience about libraries and frameworks like  React, Vue, Nuxt, Redux, Vuex, axios, Element UI, Bootstrap, wepy(wechat miniapp), Node.js, AngularJS and so on',
             'have experience about tools like git, vim, SCSS, babel, parcel, webpack, gulp and so on',
             'have experience about databases like postgreSQL, mongoDB and so on',
@@ -108,14 +108,14 @@ const resources = {
           address: '中国湖北省武汉市',
           summary: '能解决问题，擅长团队合作，学习能力强',
           skills: [
-            '掌握 JavaScript, CSS3, HTML5',
+            '掌握 JavaScript, TypeScript, CSS3, HTML5',
             '熟悉 React, Vue, Nuxt, Redux, Vuex, axios, Element UI, Bootstrap, wepy(微信小程序), Node.js, AngularJS 等库/框架',
             '熟悉 git, vim, SCSS, babel, parcel, webpack, gulp 等工具',
             '熟悉 postgreSQL, mongoDB 等数据库',
             'Mac/Linux 用户',
           ],
           abilities: [
-            '关于“基本操作“：利用网络资源如 Google 、 Github 、 StackOverflow 查找实际案例',
+            '关于“基本操作”：利用网络资源如 Google 、 Github 、 StackOverflow 查找实际案例',
             '关于“知识”：了解前端知识体系，知道“如何正确提问”，遇到问题知道该学什么',
             '关于“软技能”：良好的沟通能力，时间管理能力，自我驱动能力',
           ],
@@ -127,7 +127,7 @@ const resources = {
             //   duty: [],
             // },
             {
-              title: '前端开发工程师, 前端效能组组长',
+              title: '前端开发工程师，前端效能组组长',
               companyName: '武汉夜莺科技有限公司',
               during: '三月 2021 - 至今',
               duty: [
